@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.complete-page {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+    width: 30vw;
+    height: 60vh;
+}
+
+.custom-form {
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-form div {
+    border: 1px solid black;
+    flex: 1;
+    /* margin: 1em; */
+    padding: 1em;
+}
+
+#submit {
+    width: 6em;
+    height: 3em;
+    cursor: pointer;
+}
